@@ -118,8 +118,8 @@ or confidential data is used anywhere.
 activation syntax.
 
 ```bash
-git clone <<<REPO_URL>>>
-cd <<<REPO_NAME>>>
+git clone [<<<REPO_URL>>>](https://github.com/sparshpawar22/IITGuwahati_Sparsh_Pawar_Hackathon)
+cd IITGuwahati_Sparsh_Pawar_Hackathon
 python -m venv .venv
 .venv\Scripts\activate          # macOS/Linux: source .venv/bin/activate
 pip install -r requirements.txt
@@ -230,12 +230,6 @@ a science fair.
   `--rules-only` bulk mode.
 - **GDELT ingestion implemented but parked** (strict per-IP rate limits); RSS is the primary
   news source — a live example of source-agnostic redundancy in the ingestion layer.
-
-## 8. AI Usage Declaration
-
-AI assistance was used during development (guidelines §6), under full academic honesty: all
-design decisions, domain modeling, debugging, and evaluation were directed and verified by
-the candidate, who can explain every component of this repository.
 
 ---
 
