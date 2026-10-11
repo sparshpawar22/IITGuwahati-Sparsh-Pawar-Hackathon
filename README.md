@@ -5,7 +5,7 @@
 * **Candidate Name:** Sparsh Pawar
 * **College Email ID:** p.sparsh@iitg.ac.in
 * **College / Campus:** IIT Guwahati
-* **Demo Video Link:** [YouTube Unlisted Video Link] *(YouTube, unlisted)*
+* **Demo Video Link:** https://youtu.be/-nn-xYxHDek
 * **Slide Deck Link:** Included in this repo at `docs/presentation.pdf`
 
 ---
