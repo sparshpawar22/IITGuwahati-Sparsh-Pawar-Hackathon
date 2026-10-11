@@ -1,0 +1,85 @@
+{
+  "source_dataset": "kartik2112/credit-card-fraud-detection (fraudTest.csv)",
+  "license": "CC0 Public Domain",
+  "simulation": "Sparkov Data Generation (Brandon Harris)",
+  "transactions_used": 555719,
+  "category_col": "category",
+  "amount_col": "amt",
+  "unmapped_volume_share": 0.0,
+  "sector_weights_from_data": {
+    "Consumer": 0.4176,
+    "Energy": 0.0669,
+    "Healthcare": 0.0369,
+    "Industrials": 0.0933,
+    "Technology": 0.1053,
+    "Financials": 0.28
+  },
+  "financials_anchor_assumption": 0.28,
+  "total_book_musd": 1500.0,
+  "positions": 41,
+  "seed": 42,
+  "category_volumes": {
+    "entertainment": {
+      "volume": 2566048.0,
+      "txns": 40104
+    },
+    "food_dining": {
+      "volume": 1993948.0,
+      "txns": 39268
+    },
+    "gas_transport": {
+      "volume": 3583836.0,
+      "txns": 56370
+    },
+    "grocery_net": {
+      "volume": 1043791.0,
+      "txns": 19426
+    },
+    "grocery_pos": {
+      "volume": 6090122.0,
+      "txns": 52553
+    },
+    "health_fitness": {
+      "volume": 1975534.0,
+      "txns": 36674
+    },
+    "home": {
+      "volume": 3035770.0,
+      "txns": 52345
+    },
+    "kids_pets": {
+      "volume": 2800127.0,
+      "txns": 48692
+    },
+    "misc_net": {
+      "volume": 2151053.0,
+      "txns": 27367
+    },
+    "misc_pos": {
+      "volume": 2149889.0,
+      "txns": 34574
+    },
+    "personal_care": {
+      "volume": 1896860.0,
+      "txns": 39327
+    },
+    "shopping_net": {
+      "volume": 3487780.0,
+      "txns": 41779
+    },
+    "shopping_pos": {
+      "volume": 3827059.0,
+      "txns": 49791
+    },
+    "travel": {
+      "volume": 1961088.0,
+      "txns": 17449
+    }
+  },
+  "declared_assumptions": [
+    "asset mix ASSET_MIX",
+    "ratings/durations/coupons seeded",
+    "derivative notional = 20x value",
+    "counterparties from universe.json"
+  ]
+}
