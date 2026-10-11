@@ -1,0 +1,48 @@
+{
+  "shared_threshold": 0.5,
+  "threshold_sweeps": {
+    "phrasebank_news": {
+      "0.05": 0.644,
+      "0.1": 0.724,
+      "0.15": 0.798,
+      "0.2": 0.836,
+      "0.25": 0.856,
+      "0.3": 0.872,
+      "0.4": 0.892,
+      "0.5": 0.91
+    },
+    "hf_tweets_social": {
+      "0.05": 0.546,
+      "0.1": 0.602,
+      "0.15": 0.654,
+      "0.2": 0.67,
+      "0.25": 0.686,
+      "0.3": 0.686,
+      "0.4": 0.702,
+      "0.5": 0.72
+    }
+  },
+  "note": "phrasebank is IN-distribution for FinBERT (Araci 2019 fine-tuned on FPB) -> treat as upper bound; hf_tweets is out-of-distribution robustness.",
+  "domains": {
+    "phrasebank_news": {
+      "n": 500,
+      "accuracy_finbert": 0.91,
+      "accuracy_vader_baseline": 0.614,
+      "f1_finbert_per_class": {
+        "negative": 0.919,
+        "neutral": 0.923,
+        "positive": 0.881
+      }
+    },
+    "hf_tweets_social": {
+      "n": 500,
+      "accuracy_finbert": 0.72,
+      "accuracy_vader_baseline": 0.578,
+      "f1_finbert_per_class": {
+        "negative": 0.667,
+        "neutral": 0.786,
+        "positive": 0.573
+      }
+    }
+  }
+}

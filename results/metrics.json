@@ -1,0 +1,172 @@
+{
+  "sentiment": {
+    "shared_threshold": 0.5,
+    "threshold_sweeps": {
+      "phrasebank_news": {
+        "0.05": 0.644,
+        "0.1": 0.724,
+        "0.15": 0.798,
+        "0.2": 0.836,
+        "0.25": 0.856,
+        "0.3": 0.872,
+        "0.4": 0.892,
+        "0.5": 0.91
+      },
+      "hf_tweets_social": {
+        "0.05": 0.546,
+        "0.1": 0.602,
+        "0.15": 0.654,
+        "0.2": 0.67,
+        "0.25": 0.686,
+        "0.3": 0.686,
+        "0.4": 0.702,
+        "0.5": 0.72
+      }
+    },
+    "note": "phrasebank is IN-distribution for FinBERT (Araci 2019 fine-tuned on FPB) -> treat as upper bound; hf_tweets is out-of-distribution robustness.",
+    "domains": {
+      "phrasebank_news": {
+        "n": 500,
+        "accuracy_finbert": 0.91,
+        "accuracy_vader_baseline": 0.614,
+        "f1_finbert_per_class": {
+          "negative": 0.919,
+          "neutral": 0.923,
+          "positive": 0.881
+        }
+      },
+      "hf_tweets_social": {
+        "n": 500,
+        "accuracy_finbert": 0.72,
+        "accuracy_vader_baseline": 0.578,
+        "f1_finbert_per_class": {
+          "negative": 0.667,
+          "neutral": 0.786,
+          "positive": 0.573
+        }
+      }
+    }
+  },
+  "events": {
+    "n": 37,
+    "accuracy": 0.784,
+    "stressable_recall": 0.889,
+    "rules_only": false,
+    "confusion": {
+      "Credit Event": {
+        "Credit Event": 5,
+        "Macroeconomic": 1
+      },
+      "Earnings/Results": {
+        "Earnings/Results": 5
+      },
+      "Geopolitical": {
+        "Geopolitical": 5,
+        "Earnings/Results": 1
+      },
+      "Macroeconomic": {
+        "Macroeconomic": 6
+      },
+      "Merger/Acquisition": {
+        "Merger/Acquisition": 3,
+        "Geopolitical": 1,
+        "Earnings/Results": 1
+      },
+      "Other": {
+        "Credit Event": 1,
+        "Macroeconomic": 1,
+        "Earnings/Results": 2
+      },
+      "Product Launch": {
+        "Product Launch": 5
+      }
+    }
+  },
+  "impact_backtest": {
+    "events": [
+      {
+        "id": "svb_collapse",
+        "event_date": "2023-03-10",
+        "expected_type": "Credit Event",
+        "predicted_types": [
+          "Credit Event",
+          "Macroeconomic"
+        ],
+        "predicted_impact_avg": 9.1,
+        "realized_move_pct": {
+          "KRE": -16.16,
+          "SPY": -1.58
+        }
+      },
+      {
+        "id": "hot_cpi",
+        "event_date": "2022-09-13",
+        "expected_type": "Macroeconomic",
+        "predicted_types": [
+          "Macroeconomic"
+        ],
+        "predicted_impact_avg": 6.2,
+        "realized_move_pct": {
+          "SPY": -3.98,
+          "QQQ": -4.73
+        }
+      },
+      {
+        "id": "ukraine_invasion",
+        "event_date": "2022-02-24",
+        "expected_type": "Geopolitical",
+        "predicted_types": [
+          "Geopolitical"
+        ],
+        "predicted_impact_avg": 6.2,
+        "realized_move_pct": {
+          "SPY": 3.74,
+          "XOM": 1.39,
+          "GLD": -0.98
+        }
+      },
+      {
+        "id": "nvda_ai_beat",
+        "event_date": "2023-05-24",
+        "expected_type": "Earnings/Results",
+        "predicted_types": [
+          "Credit Event",
+          "Earnings/Results"
+        ],
+        "predicted_impact_avg": 3.2,
+        "realized_move_pct": {
+          "NVDA": 23.76
+        }
+      },
+      {
+        "id": "election_rally",
+        "event_date": "2024-11-05",
+        "expected_type": "Geopolitical",
+        "predicted_types": [
+          "Macroeconomic",
+          "Merger/Acquisition"
+        ],
+        "predicted_impact_avg": 5.4,
+        "realized_move_pct": {
+          "SPY": 3.73,
+          "IWM": 7.78
+        }
+      }
+    ],
+    "note": "impact score measures SYSTEMIC severity, not single-stock magnitude"
+  },
+  "trigger_audit": {
+    "total_signals": 350,
+    "trigger_rate_pct": 3.1,
+    "triggered_by_event": {
+      "Geopolitical": 2,
+      "Macroeconomic": 1,
+      "Credit Event": 8
+    },
+    "tier_distribution": {
+      "moderate_7_8": 8,
+      "severe_8_9": 2,
+      "extreme_9_10": 1
+    }
+  }
+}

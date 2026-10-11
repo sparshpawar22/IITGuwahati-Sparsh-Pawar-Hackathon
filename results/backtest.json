@@ -1,0 +1,73 @@
+{
+  "events": [
+    {
+      "id": "svb_collapse",
+      "event_date": "2023-03-10",
+      "expected_type": "Credit Event",
+      "predicted_types": [
+        "Credit Event",
+        "Macroeconomic"
+      ],
+      "predicted_impact_avg": 9.1,
+      "realized_move_pct": {
+        "KRE": -16.16,
+        "SPY": -1.58
+      }
+    },
+    {
+      "id": "hot_cpi",
+      "event_date": "2022-09-13",
+      "expected_type": "Macroeconomic",
+      "predicted_types": [
+        "Macroeconomic"
+      ],
+      "predicted_impact_avg": 6.2,
+      "realized_move_pct": {
+        "SPY": -3.98,
+        "QQQ": -4.73
+      }
+    },
+    {
+      "id": "ukraine_invasion",
+      "event_date": "2022-02-24",
+      "expected_type": "Geopolitical",
+      "predicted_types": [
+        "Geopolitical"
+      ],
+      "predicted_impact_avg": 6.2,
+      "realized_move_pct": {
+        "SPY": 3.74,
+        "XOM": 1.39,
+        "GLD": -0.98
+      }
+    },
+    {
+      "id": "nvda_ai_beat",
+      "event_date": "2023-05-24",
+      "expected_type": "Earnings/Results",
+      "predicted_types": [
+        "Credit Event",
+        "Earnings/Results"
+      ],
+      "predicted_impact_avg": 3.2,
+      "realized_move_pct": {
+        "NVDA": 23.76
+      }
+    },
+    {
+      "id": "election_rally",
+      "event_date": "2024-11-05",
+      "expected_type": "Geopolitical",
+      "predicted_types": [
+        "Macroeconomic",
+        "Merger/Acquisition"
+      ],
+      "predicted_impact_avg": 5.4,
+      "realized_move_pct": {
+        "SPY": 3.73,
+        "IWM": 7.78
+      }
+    }
+  ],
+  "note": "impact score measures SYSTEMIC severity, not single-stock magnitude"
+}

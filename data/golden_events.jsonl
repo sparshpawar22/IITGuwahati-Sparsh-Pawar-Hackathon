@@ -1,0 +1,37 @@
+{"text": "Russia launches full-scale invasion of Ukraine, oil surges past 100 dollars", "label": "Geopolitical", "origin": "curated"}
+{"text": "Red Sea attacks force container ships to reroute around Cape of Good Hope, freight costs surge", "label": "Geopolitical", "origin": "curated"}
+{"text": "US announces sweeping new export controls on advanced semiconductors to China", "label": "Geopolitical", "origin": "curated"}
+{"text": "Middle East conflict escalates as missiles strike commercial shipping lanes", "label": "Geopolitical", "origin": "curated"}
+{"text": "NATO boosts eastern flank defenses amid rising border tensions", "label": "Geopolitical", "origin": "curated"}
+{"text": "Fed delivers fourth consecutive 75 basis point rate hike as inflation stays elevated", "label": "Macroeconomic", "origin": "curated"}
+{"text": "CPI print comes in hotter than expected, core inflation accelerates to 6.3 percent", "label": "Macroeconomic", "origin": "curated"}
+{"text": "US economy contracts for second straight quarter, recession fears mount", "label": "Macroeconomic", "origin": "curated"}
+{"text": "ECB signals emergency meeting as bond yields spiral", "label": "Macroeconomic", "origin": "curated"}
+{"text": "Unemployment claims fall to five-decade low, tightening labor market keeps Fed hawkish", "label": "Macroeconomic", "origin": "curated"}
+{"text": "Regional bank defaults on commercial paper as deposit run accelerates", "label": "Credit Event", "origin": "curated"}
+{"text": "Moody's downgrades sovereign debt to junk as crisis talks intensify", "label": "Credit Event", "origin": "curated"}
+{"text": "Hedge fund freezes redemptions amid fraud allegations, counterparties scramble", "label": "Credit Event", "origin": "curated"}
+{"text": "Corporate bond issuance halts as investors price in wave of defaults", "label": "Credit Event", "origin": "curated"}
+{"text": "Lender files for bankruptcy protection after failed refinancing", "label": "Credit Event", "origin": "curated"}
+{"text": "Microsoft nears 25 billion dollar acquisition of cybersecurity firm", "label": "Merger/Acquisition", "origin": "curated"}
+{"text": "Chevron agrees to buy Hess in 53 billion dollar all-stock deal", "label": "Merger/Acquisition", "origin": "curated"}
+{"text": "Bidding war erupts as rival launches hostile takeover bid for steelmaker", "label": "Merger/Acquisition", "origin": "curated"}
+{"text": "Regulators scrutinize merger over antitrust concerns, deal in doubt", "label": "Merger/Acquisition", "origin": "curated"}
+{"text": "Apple unveils new AI chip lineup at annual developer conference", "label": "Product Launch", "origin": "curated"}
+{"text": "Tesla rolls out refreshed Model 3 with autonomous features", "label": "Product Launch", "origin": "curated"}
+{"text": "Company launches generative AI assistant for enterprise customers", "label": "Product Launch", "origin": "curated"}
+{"text": "Nintendo debuts next-generation console ahead of holiday season", "label": "Product Launch", "origin": "curated"}
+{"text": "Nvidia beats estimates on data center demand, guides sharply higher", "label": "Earnings/Results", "origin": "curated"}
+{"text": "Bank of America misses on trading revenue, cuts full-year guidance", "label": "Earnings/Results", "origin": "curated"}
+{"text": "Retailer raises dividend and announces 20 billion dollar buyback", "label": "Earnings/Results", "origin": "curated"}
+{"text": "Chipmaker posts record quarterly revenue as AI demand booms", "label": "Earnings/Results", "origin": "curated"}
+{"text": "Company announces CEO succession plan, veteran CFO to retire next year", "label": "Other", "origin": "curated"}
+{"text": "Shares move sideways in quiet pre-holiday trading", "label": "Other", "origin": "curated"}
+{"text": "Audit committee completes annual review, no material findings", "label": "Other", "origin": "curated"}
+{"text": "CVS Health stock price target raised to $90 from $85 at SunTrust RH", "label": "Geopolitical", "origin": "blind"}
+{"text": "Rising interest rates: The good, the bad and the ugly for retirees. Unlike higher gas prices, which hurt almost everyone, higher borrowing costs have an uneven impact.", "label": "Macroeconomic", "origin": "blind"}
+{"text": "Goldman adds Workday to conviction list; shares +1%", "label": "Credit Event", "origin": "blind"}
+{"text": "Owens Corning upgraded at Wells after raising residential insulation prices", "label": "Merger/Acquisition", "origin": "blind"}
+{"text": "New Netflix bear steps out", "label": "Product Launch", "origin": "blind"}
+{"text": "Enbridge upgraded to buy from neutral at UBS, price target lifted to C$54 from C$50", "label": "Earnings/Results", "origin": "blind"}
+{"text": "Royal Caribbean stock price target cut to $100 from $135 at CFRA", "label": "Other", "origin": "blind"}

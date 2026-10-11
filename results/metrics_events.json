@@ -1,0 +1,35 @@
+{
+  "n": 37,
+  "accuracy": 0.784,
+  "stressable_recall": 0.889,
+  "rules_only": false,
+  "confusion": {
+    "Credit Event": {
+      "Credit Event": 5,
+      "Macroeconomic": 1
+    },
+    "Earnings/Results": {
+      "Earnings/Results": 5
+    },
+    "Geopolitical": {
+      "Geopolitical": 5,
+      "Earnings/Results": 1
+    },
+    "Macroeconomic": {
+      "Macroeconomic": 6
+    },
+    "Merger/Acquisition": {
+      "Merger/Acquisition": 3,
+      "Geopolitical": 1,
+      "Earnings/Results": 1
+    },
+    "Other": {
+      "Credit Event": 1,
+      "Macroeconomic": 1,
+      "Earnings/Results": 2
+    },
+    "Product Launch": {
+      "Product Launch": 5
+    }
+  }
+}
