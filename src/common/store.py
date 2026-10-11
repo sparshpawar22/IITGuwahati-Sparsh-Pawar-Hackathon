@@ -4,7 +4,7 @@ from typing import Iterator
 
 DATA_DIR = Path("data")
 RAW_PATH = DATA_DIR / "raw_items.jsonl"     # ingesters write here
-SIGNALS_PATH = DATA_DIR / "signals.jsonl"   # engine writes here (Phase 2)
+SIGNALS_PATH = DATA_DIR / "signals.jsonl"   # engine writes here 
 
 def append(path: Path, model) -> None:
     """Append one record as a single JSON line. Append-only = crash safe."""

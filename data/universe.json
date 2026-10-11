@@ -1,0 +1,18 @@
+{
+  "JPM":  {"name": "JPMorgan Chase",   "sector": "Financials",     "aliases": ["JPMorgan", "JP Morgan", "Chase"]},
+  "BAC":  {"name": "Bank of America",  "sector": "Financials",     "aliases": ["Bank of America", "BofA"]},
+  "WFC":  {"name": "Wells Fargo",      "sector": "Financials",     "aliases": ["Wells Fargo"]},
+  "C":    {"name": "Citigroup",        "sector": "Financials",     "aliases": ["Citigroup", "Citi"]},
+  "GS":   {"name": "Goldman Sachs",    "sector": "Financials",     "aliases": ["Goldman Sachs", "Goldman"]},
+  "MS":   {"name": "Morgan Stanley",   "sector": "Financials",     "aliases": ["Morgan Stanley"]},
+  "XOM":  {"name": "Exxon Mobil",      "sector": "Energy",         "aliases": ["ExxonMobil", "Exxon"]},
+  "CVX":  {"name": "Chevron",          "sector": "Energy",         "aliases": ["Chevron"]},
+  "BA":   {"name": "Boeing",           "sector": "Industrials",    "aliases": ["Boeing"]},
+  "AAPL": {"name": "Apple",            "sector": "Technology",     "aliases": ["Apple"]},
+  "MSFT": {"name": "Microsoft",        "sector": "Technology",     "aliases": ["Microsoft"]},
+  "NVDA": {"name": "NVIDIA",           "sector": "Technology",     "aliases": ["Nvidia"]},
+  "AMZN": {"name": "Amazon",           "sector": "Consumer",       "aliases": ["Amazon"]},
+  "TSLA": {"name": "Tesla",            "sector": "Consumer",       "aliases": ["Tesla"]},
+  "KO":   {"name": "Coca-Cola",        "sector": "Consumer",       "aliases": ["Coca-Cola", "Coca Cola"]},
+  "JNJ":  {"name": "Johnson & Johnson","sector": "Healthcare",     "aliases": ["Johnson & Johnson", "J&J"]}
+}

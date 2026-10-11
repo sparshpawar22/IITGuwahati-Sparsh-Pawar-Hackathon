@@ -1,5 +1,3 @@
-"""Plan B news source: RSS feeds (Yahoo Finance, CNBC, MarketWatch).
-Free, no API key, no rate-limit issues. Feeds are swappable in FEEDS below."""
 import argparse, time
 import feedparser
 from datetime import datetime, timezone
@@ -18,7 +16,7 @@ def fetch(name: str, url: str, limit: int = 30) -> list[RawItem]:
     for e in d.entries[:limit]:
         title = (e.get("title") or "").strip()
         summary = (e.get("summary") or "").strip()
-        text = f"{title}. {summary}"[:500]           # headline + summary
+        text = f"{title}. {summary}"[:500]      
         if len(title) < 20:
             continue
         published = None
@@ -53,7 +51,7 @@ def main():
                 append(RAW_PATH, item)
                 seen.add(item.url)
             total_new += len(new)
-            time.sleep(2)                            # polite gap between feeds
+            time.sleep(2)                         
         print(f"[rss] +{total_new} new items (total seen: {len(seen)})")
         if args.once:
             break
