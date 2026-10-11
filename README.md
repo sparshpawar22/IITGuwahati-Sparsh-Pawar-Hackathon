@@ -2,11 +2,11 @@
 
 ### S&P Global & Crisil Campus Hackathon 2026
 
-**Candidate Name:** Sparsh Pawar
-**College Email ID:** p.sparsh@iitg.ac.in
-**College / Campus:** IIT Guwahati
-**Demo Video Link:** <<<VIDEO*URL>>> *(YouTube, unlisted)\_
-**Slide Deck Link:** included in this repo at `docs/presentation.pdf` <<<PRES>>>
+* **Candidate Name:** Sparsh Pawar
+* **College Email ID:** p.sparsh@iitg.ac.in
+* **College / Campus:** IIT Guwahati
+* **Demo Video Link:** [YouTube Unlisted Video Link] *(YouTube, unlisted)*
+* **Slide Deck Link:** Included in this repo at `docs/presentation.pdf`
 
 ---
 
