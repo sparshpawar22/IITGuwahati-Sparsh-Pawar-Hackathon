@@ -5,6 +5,7 @@ from typing import Iterator
 DATA_DIR = Path("data")
 RAW_PATH = DATA_DIR / "raw_items.jsonl"     # ingesters write here
 SIGNALS_PATH = DATA_DIR / "signals.jsonl"   # engine writes here
+STRESS_RESULTS_PATH = DATA_DIR / "stress_results.jsonl"
 
 def append(path: Path, model) -> None:
     """Append one record as a single JSON line. Accepts pydantic models OR dicts."""

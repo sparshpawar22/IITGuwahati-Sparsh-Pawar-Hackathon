@@ -5,6 +5,7 @@ from datetime import datetime, timezone
 from src.common.schemas import RawItem
 from src.common.store import RAW_PATH, SIGNALS_PATH, read_all, append
 from src.engine.analyze import analyze_text
+from src.common.store import STRESS_RESULTS_PATH
 
 app = FastAPI(title="NLP Risk Engine")
 app.add_middleware(CORSMiddleware, allow_origins=["*"],
@@ -42,4 +43,10 @@ def signals(entity: str | None = None, event_type: str | None = None,
             if (entity is None or any(e["ticker"] == entity for e in r["entities"]))
             and (event_type is None or r["event_type"] == event_type)
             and r["impact_score"] >= min_impact]
+    return list(reversed(rows))[:limit]    
+
+@app.get("/stress")
+def stress(limit: int = Query(50, le=200)):
+    """Stress-test run history (Module B results)."""
+    rows = list(read_all(STRESS_RESULTS_PATH))
     return list(reversed(rows))[:limit]       
